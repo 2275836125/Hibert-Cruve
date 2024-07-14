@@ -6,13 +6,13 @@ Metagenomic profiles contain relative abundance values for all microbial taxa in
 Analyzing and visualizing metagenomic profiles, which synthesize billions of sequenced reads from thousands of microbial genomes, is challenging due to the data's complexity. Existing visualization techniques need to be improved when the taxa number is in the thousands. We present a technique for succinct visualization of abundance profiles using a space-filling curve that transforms a profile into an interpretable 2D image, employing a previously developed approach.
 ## Explanation
 <div style="text-align: center;">
-  <img src="images/figure1.svg" alt="Descriptive text" style="width: 100%;"/>
+  <img src="figure/figure1.svg" alt="Descriptive text" style="width: 100%;"/>
   <p style="font-style: italic;">Fig1 (A) Visualizing the microbiome of adjacent tissues in cancer patients from the TCGA dataset using the Hilbert curve. (B) Use evolutionary distances to perform one-dimensional sorting of microbiome sequences and map this sequence onto a 2D curve. (C) Analyze the Hilbert curve using PCA and convolutional neural networks.</p>
 </div>
 
 Hilbert curve visualization fundamentally transforms a one-dimensional sequence into a two-dimensional image arrangement. For microbiome visualization, the arrangement of different microorganisms in the one-dimensional sequence determines the pattern of the Hilbert curve. We utilize evolutionary distances to sort the microbiome, establishing a linear order based on the evolutionary tree constructed using Ensembl. Microorganisms are arranged along the curve according to their evolutionary distances. In this ordering, pairs of taxa belonging to the same taxonomic group (such as the same genus or species) are placed close to each other along the curve and close to each other in the Hilbert image. This ordering scheme groups related taxa based on their taxonomic lineage; multiple taxonomic levels can be displayed simultaneously in a single image. The ability of the Hilbert image to display multiple levels of the taxonomic tree all at once while also providing high-resolution abundance information for individual microorganisms offers a compelling advantage over other visualization methods. The sheer number of data points would overwhelm any other one-dimensional visualization.
 <div style="text-align: center;">
-  <img src="images/figure2.svg" alt="Descriptive text" style="width: 100%;"/>
+  <img src="figure/figure2.svg" alt="Descriptive text" style="width: 100%;"/>
   <p style="font-style: italic;">Fig2 Visualize the microbiome differences in adjacent tissues of cancer patients using the Hilbert curve.</p>
 </div>
 

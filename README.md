@@ -6,7 +6,7 @@ Metagenomic profiles contain relative abundance values for all microbial taxa in
 Analyzing and visualizing metagenomic profiles, which synthesize billions of sequenced reads from thousands of microbial genomes, is challenging due to the data's complexity. Existing visualization techniques need to be improved when the taxa number is in the thousands. We present a technique for succinct visualization of abundance profiles using a space-filling curve that transforms a profile into an interpretable 2D image, employing a previously developed approach.
 ## Explanation
 <div style="text-align: center;">
-  <img src="figure/figure1.svg" alt="Descriptive text" style="width: 100%;"/>
+  <img src="figure/figure1.png" alt="Descriptive text" style="width: 100%;"/>
   <p style="font-style: italic;">Fig1 (A) Visualizing the microbiome of adjacent tissues in cancer patients from the TCGA dataset using the Hilbert curve. (B) Use evolutionary distances to perform one-dimensional sorting of microbiome sequences and map this sequence onto a 2D curve. (C) Analyze the Hilbert curve using PCA and convolutional neural networks.</p>
 </div>
 

@@ -1,4 +1,4 @@
-# Hilbert Cruve
+# Hilbert Curve
 This repository contains an algorithm for visualizing microbiomes using the Hilbert curve. The algorithm maps microbiome relative abundance information onto a two-dimensional space through the Hilbert curve, enabling visualization of microbiome variations.
 ## Introduction
 Microbiome samples are now routinely created using low-cost, high-throughput metagenomics DNA sequencing. And create microbial community abundance profiles by mapping sequenced reads against reference genome collections like Ensembl or RefSeq. Tools like Flint and Kraken 2 facilitate detailed microbial abundance profiles for metagenomic whole-genome sequencing (mWGS) and 16S-amplicon sequencing (16S). These profiles are essential for downstream analyses such as differential abundance studies, co-occurrence pattern discovery, Bayesian analyses, biomarker identification, multi-omics analyses, and longitudinal studies.
